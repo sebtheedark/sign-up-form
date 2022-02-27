@@ -1,0 +1,138 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica,sans-serif;
+}
+/*img {
+    max-width: 100%;
+    max-height: 100%;
+}*/
+
+.main{
+    display: flex;  
+    height: 100%;
+}
+.leftSide{
+    width: 40%;
+}
+.leftMain{
+    height: 100%;
+}
+.photo {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+#rolex{
+    height: 100%;
+    width: 100%;
+}
+.logo {
+    /*top: 45%;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    opacity: .5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    */
+}
+.clear{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    opacity: .6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logoText{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    text-shadow: 1px 1px black;
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+.bottomText{
+    position: absolute;
+    top: 96%;
+    color: white; 
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+
+}
+
+
+.rightSide{
+    width: 60%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.rightMain{
+    height: 100%;
+}
+.upper{
+    
+    height: 27.5%; 
+    
+}
+#summary{
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.middle{
+    height: 45%;
+    width: 100%;
+    margin-top: 10px;
+}
+#form{
+    margin-top: 5px;
+    padding-left: 65px;
+}
+.form{
+    height: 45%;
+    width: 100%;
+    display: flex;
+}
+.leftForm{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+}
+.rightForm{
+    display: flex;
+    width: 50%;
+    justify-content: left;
+}
+input[type= submit]{
+    padding: 10px 60px; 
+    box-shadow: 5px 10px;
+}
+input{
+    box-shadow: 4px 7px;
+}
+
+.bottom{
+    height: 27.5%;
+}
+#login{
+    padding-left: 65px;
+    margin: 0%;
+}
