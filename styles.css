@@ -125,8 +125,11 @@ input[type= submit]{
     padding: 10px 60px; 
     box-shadow: 5px 10px;
 }
-input{
-    box-shadow: 4px 7px;
+input { 
+    -webkit-appearance: none;
+    -webkit-box-shadow: 4px 7px black;
+        box-shadow: 4px 7px black;
+
 }
 
 .bottom{
